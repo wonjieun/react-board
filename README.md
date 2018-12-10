@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -46,4 +45,3 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 =======
 # react-board
 Making Reactjs board !
->>>>>>> 61ea4520b20fbc4b3736b1cfaf2d528e764f3237
