@@ -1,7 +1,14 @@
 import React, { Component } from "react";
-
+import PropTypes from "prop-types";
 export default class Row extends Component {
+  static propTypes = {
+    number: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    date: PropTypes.string.isRequired
+  };
+
   render() {
+    console.log(this.props);
     return (
       <tr>
         <td>
@@ -10,9 +17,9 @@ export default class Row extends Component {
             <span className="check" />
           </span>
         </td>
-        <td>1</td>
-        <td>알려드립니다.</td>
-        <td>2018.06.17</td>
+        <td>{this.props.number}</td>
+        <td>{this.props.title}</td>
+        <td>{this.props.date}</td>
         <td className="column">
           <span className="btn_box">
             <span className="delete">삭제</span>

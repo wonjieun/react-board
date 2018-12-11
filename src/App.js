@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import "./board.css";
-import List from "../src/components/List";
+import "./components/board.css";
+import "./components/common.css";
+import "./components/reset.css";
+import List from "./components/List";
+
 class App extends Component {
   render() {
     return (
@@ -40,7 +43,7 @@ class App extends Component {
               </div>
             </div>
             <img
-              src="/ecobooks_cms/img/sbbuttonTop.png"
+              src="/img/sbbuttonTop.png"
               alt="맨 위로 이동"
               className="return-top"
             />

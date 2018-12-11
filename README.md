@@ -1,5 +1,10 @@
-<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# React Notice Board
+
+Making Reactjs board !
+
+---
 
 ## Available Scripts
 
@@ -42,8 +47,4 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# react-board
-Making Reactjs board !
->>>>>>> 61ea4520b20fbc4b3736b1cfaf2d528e764f3237
+# To learn React, check out the [React documentation](https://reactjs.org/).
