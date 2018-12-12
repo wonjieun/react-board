@@ -21,17 +21,28 @@ const notices = [
 ];
 
 class List extends Component {
+  state = {
+    greeting: "hello"
+  };
+
   componentWillMount() {
     console.log("will mount");
+    // api 요청을 진행한다.
   }
 
   componentDidMount() {
     console.log("did mount");
+    setTimeout(() => {
+      this.setState({
+        greeting: "Hello agian!"
+      });
+    }, 1000);
   }
 
   render() {
     return (
       <table className="common_table notice_table">
+        {/* {this.state.greeting} */}
         <colgroup>
           <col width="50px" />
           <col width="50px" />

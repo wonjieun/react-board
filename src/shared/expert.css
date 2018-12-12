@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+.gray-80-btn {
+	margin-left: 8px;
+	vertical-align: top;
+}
+.ex_table {
+	margin-top: 10px;
+	text-align: left;
+}
+.ex_table tr th {
+	padding-left: 60px;
+}
+.ex_table tr td {
+	padding-left: 60px;
+}
+.ex_table tr th:last-child {
+	padding-left: 0px;
+}
+.ex_table tr td:last-child {
+	padding-left: 0px;
+}
+.ex_table tr th:nth-child(5) {
+	text-align: center;
+}
+.ex_table tr td:nth-child(5) {
+	text-align: center;
+}
+.ex_table tr th:nth-child(1) em {
+	width: 80px;
+}
+.ex_table tr th:nth-child(2) em {
+	width: 80px;
+}
+.ex-popup_bg {
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	width: 100%;
+	height: 100%;
+	z-index:1003;
+	display: none;
+}
+.ex-popup {
+	width: 400px;
+	height: 310px;
+	background:#fff;
+	position: absolute;
+	top:50%;
+	left:50%;
+	text-align: center;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.ex-popup h3 {
+	text-align: center;
+	font-weight: bold;
+	color:#fff;
+	font-size:16px;
+	background:#42b299;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+}
+.ex-popup_close {
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+	top: 50%;
+	margin-top: -9px;
+	right:40px;
+	cursor:pointer;
+	background:url('/ecobooks_cms/img/close_off.png') no-repeat center;
+}
+.ex-popup_close:hover {
+	background:url('/ecobooks_cms/img/close_on.png') no-repeat center;
+}
+.ex-popup table {
+	width: 90%;
+	margin-top: 25px;
+	text-align: right;
+}
+.ex-popup table tr th {
+	font-size:14px;
+	font-weight: bold;
+	color:#323232;
+}
+.ex-popup table tr td {
+	width: 220px;
+	padding:5px 0;
+	padding-left: 10px;
+}
+.w-220 {
+	width: 220px;
+}
+.w-70 {
+	width: 70px;
+	margin-left: 0.5px;
+}
+.select-70 {
+	width:70px;
+	padding-left: 15px;
+	background:url('/ecobooks_cms/img/down_arrow_off.png') no-repeat #fff 50px;
+}
+.select-220 {
+	width:220px;
+	padding-left: 15px;
+	background:url('/ecobooks_cms/img/down_arrow_off.png') no-repeat #fff 200px;
+}
+.ex-popup_btn_wrap {
+	margin-top: 25px;
+}
+.ex-popup_btn_wrap .orange-80-btn {
+	margin-left: 5px;
+}

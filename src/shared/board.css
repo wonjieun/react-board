@@ -1,0 +1,233 @@
+@charset "utf-8";
+
+.title_route {
+	font-weight: 100;
+	color:#646464;
+}
+.title_route a {
+	font-weight: bold;
+	color:#646464;
+}
+.title_route strong {
+	color:#323232;
+}
+
+.tab_title {
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 30px;
+	border-bottom:1px solid #39ae92;
+}
+.tab_title li {
+	float: left;
+	font-size:17px;
+	color:#323232;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	margin-right: 10px;
+	background:#e1e2e5;
+	margin-top: 10px;
+	border-bottom:1px solid #39ae92;
+	-webkit-border-radius:10px 10px 0 0;
+	-moz-border-radius:10px 10px 0 0;
+	-o-border-radius:10px 10px 0 0;
+	border-radius:10px 10px 0 0;	
+}
+.tab_title li:hover {
+	height: 50px;
+	line-height: 50px;
+	color:#fff;
+	font-size:20px;
+	background:#39ae92;
+	margin-top:0;
+}
+.tab_title .tab_click {
+	height: 50px;
+	line-height: 50px;
+	color:#fff;
+	font-size:20px;
+	background:#39ae92;
+	margin-top:0;
+}
+.write_box {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	border:1px solid #787878;
+}
+
+
+/*	FAQ관리(faq)	*/
+.FR .top_bar input {
+	width: 1383px;
+}
+.FR .btn_wrap {
+	margin-top: 20px;
+}
+.faq_table {
+	margin-top: 10px;
+}
+.faq_table tr:hover {
+	background:#fef2eb
+}
+.faq_table tr th,.faq_table tr td {
+	height: 40px;
+	line-height: 40px;
+}
+.faq_table tr th:nth-child(3),.faq_table tr td:nth-child(3) {
+	text-align: left;
+	padding-left: 70px;
+}
+.faq_table tr th:nth-child(4),.faq_table tr td:nth-child(4) {
+	text-align: left;
+}
+.faq_table .btn_box {
+	width: 70px;
+	left:-11px;
+	top:26px;
+}
+
+/*	공지사항관리(notice)	*/
+.notice_table {
+	margin-top: 10px;
+}
+.notice_table tr th,.notice_table tr td {
+	height: 40px;
+	line-height: 40px;
+}
+.notice_table tr th:nth-child(3),.notice_table tr td:nth-child(3) {
+	text-align: left;
+	padding-left: 100px;
+}
+.notice_table .btn_box {
+	width: 70px;
+	left:-11px;
+	top:26px;
+}
+.notice_table tr:hover {
+	background:#fef2eb
+}
+.NR .btn_wrap {
+	margin-top: 20px;
+}
+.NR-top_bar input {
+	font-size:13px;
+}
+.NR-top_bar input.fl {
+	width: 500px;
+}
+.NR-top_bar strong {
+	font-size:14px;
+	color:#646464;
+}
+.NR-top_bar strong:nth-of-type(1) {
+	display: inline-block;
+	margin-right: 30px;
+}
+.NR .popup p {
+	margin:60px 0 45px;
+}
+
+
+/*	1:1문의관리(inquiry)	*/
+.inquiry_top_bar .fr button {
+	vertical-align: bottom;
+}
+.inquiry_table {
+	margin-top: 10px;
+}
+.inquiry_table tr th,.inquiry_table tr td {
+	height: 40px;
+	line-height: 40px;
+}
+.inquiry_table tr th:nth-child(2),.inquiry_table tr td:nth-child(2),.inquiry_table tr th:nth-child(3),.inquiry_table tr td:nth-child(3),.inquiry_table tr th:nth-child(5),.inquiry_table tr td:nth-child(5) {
+	text-align: left;
+}
+.inquiry_table tr:hover {
+	background:#fef2eb
+}
+.IW h4 {
+	color:#646464;
+	font-size:20px;
+	margin-bottom: 8px;
+	padding-left: 15px;
+}
+.IW h5 {
+	color:#646464;
+	font-size:14px;
+	font-weight: 100;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.IW h5 em {
+	font-weight: 600;
+}
+
+.IW textarea {
+	width: 100%;
+	height: 260px;
+	border:1px solid #787878;
+	border-bottom:none;
+}
+.IW .write_box {
+	height: 340px;
+	margin-top: -3px;
+	border-top:1px solid #b4b4b4;
+}
+.IW button {
+	margin-top: 20px;
+}
+.IC h4 {
+	color:#646464;
+	font-size:20px;
+	margin-bottom: 8px;
+	padding-left: 15px;
+}
+.IC h5 {
+	color:#646464;
+	font-size:14px;
+	font-weight: 100;
+	padding-left: 15px;
+	margin-bottom: 20px;
+}
+.IC h5 em {
+	font-weight: 600;
+}
+
+.IC textarea {
+	width: 100%;
+	height: 260px;
+	border:1px solid #787878;
+	border-bottom:none;
+}
+.IC .write_box {
+	height: 340px;
+	margin-top: -3px;
+	border-top:1px solid #b4b4b4;
+}
+.IC button {
+	margin-top: 20px;
+}
+
+
+
+/*	관리자 문의(admin)	*/
+
+.admin h2 {
+	font-size:40px;
+	color:#646464;
+	position: absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+
