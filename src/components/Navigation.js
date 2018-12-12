@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 export default class Navigation extends Component {
   render() {
@@ -7,8 +7,8 @@ export default class Navigation extends Component {
         <ul className="menu">
           <li>
             <a href="dashboard.jsp" className="logo">
-              <img src="/img/logo.png" alt="에코북스 로고" />
-            </a>{" "}
+              <img src="/images/logo.png" alt="에코북스 로고" />
+            </a>{' '}
           </li>
           <li className="menu01">
             <a href="#">대시보드</a>
@@ -138,7 +138,7 @@ export default class Navigation extends Component {
           </li>
           <li>
             <a href="#" className="baroB_img">
-              <img src="/img/baroB_logo.png" alt="바로비 로고" />
+              <img src="/images/baroB_logo.png" alt="바로비 로고" />
             </a>
           </li>
         </ul>

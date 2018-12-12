@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import List from "./List";
+import React, { Component } from 'react';
+import List from './List';
 
 export default class Notice extends Component {
   render() {
@@ -39,7 +39,7 @@ export default class Notice extends Component {
             </div>
           </div>
           <img
-            src="/img/sbbuttonTop.png"
+            src="/images/sbbuttonTop.png"
             alt="맨 위로 이동"
             className="return-top"
           />

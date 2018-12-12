@@ -2,162 +2,164 @@
 
 /*	기관정보등록(organ_info)	*/
 .organ_info_table .gray-80-btn {
-	margin-left: 5px;
+  margin-left: 5px;
 }
-input[type="password"] {
-	padding-left: 10px;
+input[type='password'] {
+  padding-left: 10px;
 }
 .juso input:nth-of-type(2) {
-	width: 350px;
+  width: 350px;
 }
 .juso input:nth-of-type(3) {
-	width: 474px;
-	display: block;
+  width: 474px;
+  display: block;
 }
 .organ_info_table .juso {
-	line-height: 40px;
-	padding-bottom: 10px;
+  line-height: 40px;
+  padding-bottom: 10px;
 }
 .organ_info_table tr:nth-child(9) td input {
-	margin-right: 4px;
+  margin-right: 4px;
 }
-.organ_info_table tr:nth-child(10) td input:nth-of-type(2),.organ_info_table tr:nth-child(12) td input:nth-of-type(2) {
-	margin-left: 4px;
+.organ_info_table tr:nth-child(10) td input:nth-of-type(2),
+.organ_info_table tr:nth-child(12) td input:nth-of-type(2) {
+  margin-left: 4px;
 }
 .organ_popup .search_input {
-	width:240px;
-	padding-left: 40px;
-	background:url('/ecobooks_cms/img/search.png') no-repeat 8px;
+  width: 240px;
+  padding-left: 40px;
+  background: url('/images/search.png') no-repeat 8px;
 }
 .organ-popup_bg {
-	width: 100%;
-	height: 100%;
-	background:rgba(0,0,0,0.5);
-	z-index:7454;
-	position: fixed;
-	display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 7454;
+  position: fixed;
+  display: none;
 }
 .organ_popup {
-	width: 600px;
-	height: 425px;
-	position:absolute;
-	top:50%;
-	left:50%;
-	text-align: center;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	-o-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
-	background:#fff;
+  width: 600px;
+  height: 425px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fff;
 }
 .organ_popup h3 {
-	text-align: center;
-	font-weight: bold;
-	color:#fff;
-	font-size:16px;
-	background:#42b299;
-	height: 40px;
-	line-height: 40px;
-	position: relative;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  background: #42b299;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
 }
 .organ-pop_close {
-	position: absolute;
-	width: 18px;
-	height: 18px;
-	display: inline-block;
-	top: 50%;
-	margin-top: -9px;
-	right:40px;
-	cursor:pointer;
-	background:url('/ecobooks_cms/img/close_off.png') no-repeat center;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  top: 50%;
+  margin-top: -9px;
+  right: 40px;
+  cursor: pointer;
+  background: url('/images/close_off.png') no-repeat center;
 }
 .organ-pop_close:hover {
-	background:url('/ecobooks_cms/img/close_on.png') no-repeat center;
+  background: url('/images/close_on.png') no-repeat center;
 }
 .organ-top_bar {
-	margin:20px 0;
+  margin: 20px 0;
 }
 .organ-pop_table_wrap {
-	width: 542px;
-	height: 282px;
-	margin:0 auto;
-	overflow:hidden;
-	overflow-y:scroll;
-	margin-bottom: 20px;
-	border-top:1px solid #787878;
-	border-bottom:1px solid #787878;
+  width: 542px;
+  height: 282px;
+  margin: 0 auto;
+  overflow: hidden;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  border-top: 1px solid #787878;
+  border-bottom: 1px solid #787878;
 }
 .organ_pop_text_wrap {
-	width: 542px;
-	height: 282px;
-	margin:0 auto;
-	border-top:1px solid #787878;
+  width: 542px;
+  height: 282px;
+  margin: 0 auto;
+  border-top: 1px solid #787878;
 }
 .organ_pop_text_wrap p {
-	color:#323232;
-	font-size:18px;
-	margin-bottom: 20px;
-	margin-top: 90px;
+  color: #323232;
+  font-size: 18px;
+  margin-bottom: 20px;
+  margin-top: 90px;
 }
 .organ_popup table {
-	border-top:none;
+  border-top: none;
 }
 .organ_popup table tr th:nth-child(3) {
-	text-align: left;
-	padding-left: 25px;
+  text-align: left;
+  padding-left: 25px;
 }
 .organ_popup table tr td:nth-child(3) {
-	text-align: left;
-	padding-left: 25px;
+  text-align: left;
+  padding-left: 25px;
 }
 .organ_popup table tr:last-child td {
-	border-bottom:1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
 }
 .low_organ_info .organ_info_table tr:nth-child(8) td input {
-	margin-right: 4px;
+  margin-right: 4px;
 }
 .low_organ_info .organ_info_table tr:nth-child(11) td input:nth-of-type(2) {
-	margin-left: 4px;
+  margin-left: 4px;
 }
 .row-pop_table {
-	height: 242px;
+  height: 242px;
 }
 
 /*	기관조회(organ_check)	*/
 .kids-top_bar button {
-	vertical-align: bottom;
+  vertical-align: bottom;
 }
 .check_table {
-	margin-top: 10px;
+  margin-top: 10px;
 }
-.check_table tr th,.check_table tr td {
-	height: 40px;
-	line-height: 40px;
+.check_table tr th,
+.check_table tr td {
+  height: 40px;
+  line-height: 40px;
 }
 .check_table tr th:nth-child(1) {
-	width: 110px;
+  width: 110px;
 }
 .check_table tr td:nth-child(3) {
-	color:#f97f3e;
+  color: #f97f3e;
 }
 .check_table tr th:nth-child(5) em {
-	width: 65px;
-	text-align: left;
+  width: 65px;
+  text-align: left;
 }
-.check_table tr th:nth-child(7),.check_table tr td:nth-child(9) {
-	text-align: left;
-	padding-left: 30px;
-	width: 150px;
+.check_table tr th:nth-child(7),
+.check_table tr td:nth-child(9) {
+  text-align: left;
+  padding-left: 30px;
+  width: 150px;
 }
-.check_table tr th:nth-child(7),.check_table tr td:nth-child(9) {
-	text-align: left;
-	padding-left: 30px;
-	width: 150px;
+.check_table tr th:nth-child(7),
+.check_table tr td:nth-child(9) {
+  text-align: left;
+  padding-left: 30px;
+  width: 150px;
 }
 .check_table .btn_box {
-	width: 70px;
-	left: -11px;
-	top:27px;
+  width: 70px;
+  left: -11px;
+  top: 27px;
 }
-
-
