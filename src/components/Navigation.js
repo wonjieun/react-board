@@ -7,7 +7,7 @@ export default class Navigation extends Component {
         <ul className="menu">
           <li>
             <a href="dashboard.jsp" className="logo">
-              <img src="/images/logo.png" alt="에코북스 로고" />
+              <img src="/assets/images/logo.png" alt="에코북스 로고" />
             </a>{' '}
           </li>
           <li className="menu01">
@@ -138,7 +138,7 @@ export default class Navigation extends Component {
           </li>
           <li>
             <a href="#" className="baroB_img">
-              <img src="/images/baroB_logo.png" alt="바로비 로고" />
+              <img src="/assets/images/baroB_logo.png" alt="바로비 로고" />
             </a>
           </li>
         </ul>

@@ -39,7 +39,7 @@ export default class Notice extends Component {
             </div>
           </div>
           <img
-            src="/images/sbbuttonTop.png"
+            src="/assets/images/sbbuttonTop.png"
             alt="맨 위로 이동"
             className="return-top"
           />
